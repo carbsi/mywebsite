@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light background for the entire page */
+    color: #333; /* Dark text for body */
+}
+
+header {
+    background-color: #07803f; /* Updated header color */
+    padding: 20px 0;
+    text-align: center;
+    color: white; /* White text in header */
+}
+
+.header-divider {
+    height: 3px;
+    background-color: #d1d1d1; /* Light divider color */
+    margin: 20px 0; /* Space above and below the divider */
+}
+
+main {
+    padding: 20px;
+    text-align: center; /* Center all text in the main section */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center; /* Center the boxes horizontally */
+    flex-wrap: wrap; /* Allow boxes to wrap if necessary */
+    margin-bottom: 20px; /* Space below the flex container */
+}
+
+.box {
+    background-color: #ffffff; /* White background for boxes */
+    color: #333; /* Dark text */
+    padding: 10px 15px;
+    border-radius: 5px; /* Rounded corners */
+    margin: 5px; /* Space between boxes */
+    flex: 1; /* Allow boxes to grow and take available space */
+    min-width: 150px; /* Minimum width for each box */
+    max-width: 200px; /* Optional max width for uniformity */
+}
+
+.box a {
+    text-decoration: none; /* Remove underline from links */
+    color: #0072b1; /* LinkedIn blue for links */
+    display: block; /* Make links block elements */
+    text-align: center; /* Center text in each box */
+}
+
+h2, h3 {
+    color: #333; /* Dark text for headings */
+}
+
+.button {
+    background-color: #28a745; /* Green */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 0;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #218838; /* Dark green on hover */
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.8em;
+    text-align: center; /* Center footer text */
+}

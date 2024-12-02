@@ -1,41 +1,136 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- Muut meta-tagit ja tarvittavat linkit -->
-        <link rel="stylesheet" href="hauska.css">
-        <script src="hauska.js"></script>
-      </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ottokarpp - Landing Page</title>
+    <meta name="description" content="Professional consultant Otto Karppinen's portfolio showcasing skills, projects, and various resources aimed at enhancing brand growth and opportunities.">
+    <meta name="keywords" content="consulting, software development, programming languages, educational tools, cybersecurity, blog">
+    <style>
+        header {
+            background-color: #0b5ff0; /* Immediate inline style */
+            padding: 20px 0;
+            text-align: center;
+            color: white; /* White text in header */
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Light background for the entire page */
+            color: #333; /* Dark text for body */
+        }
+
+        .header-divider {
+            height: 3px;
+            background-color: #d1d1d1; /* Light divider color */
+            margin: 20px 0; /* Space above and below the divider */
+        }
+
+        main {
+            padding: 20px;
+            text-align: center; /* Center all text in the main section */
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: center; /* Center the boxes horizontally */
+            flex-wrap: wrap; /* Allow boxes to wrap if necessary */
+            margin-bottom: 20px; /* Space below the flex container */
+        }
+
+        .box {
+            background-color: #ffffff; /* White background for boxes */
+            color: #333; /* Dark text for improved contrast */
+            padding: 10px 15px;
+            border-radius: 5px; /* Rounded corners */
+            margin: 5px; /* Space between boxes */
+            flex: 1; /* Allow boxes to grow and take available space */
+            min-width: 150px; /* Minimum width for each box */
+            max-width: 200px; /* Optional max width for uniformity */
+        }
+
+        .box a {
+            text-decoration: none; /* Remove underline from links */
+            color: #0072b1; /* LinkedIn blue for links */
+            display: block; /* Make links block elements */
+            text-align: center; /* Center text in each box */
+        }
+
+        h2, h3 {
+            color: #333; /* Dark text for headings */
+        }
+
+        .button {
+            background-color: #28a745; /* Green */
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            display: inline-block;
+            margin: 20px 0;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #1d0295; /* Dark green on hover */
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.8em;
+            text-align: center; /* Center footer text */
+        }
+    </style>
+</head>
 <body>
-    <h1>Otto Karppinen kotisivut</h1>
-    <p>Tervetuloa! Tämä sivusto esittelee julkisesti saatavilla olevia ammatillisia projektejani. Miksi näin yksinkertainen ulkoasu?</p>
+    <header>
+        <h1>Otto Karppinen</h1>
+        <p>Consultant at Accenture</p>
+    </header>
 
-    <ul>
-        <li><strong>Helppokäyttöinen:</strong> Kaikilla ei ole nopeaa internet-yhteyttä. Täältä et löydä raskaita kuvia, videoita tai mainoksia. Sivusto toimii hyvin myös mobiililaitteilla.</li>
-        <li><strong>Selkeä:</strong> Suurin osa tästä sivustosta on yksinkertaista tekstiä, jota voi hakea selaimen hakutyökaluilla. Kaikki resurssit ovat korkeintaan kahden klikkauksen päässä.</li>
-        <li><strong>Hyödyllinen:</strong> Tämä sivusto ei ole henkilökohtainen myyntikanava. Se sisältää yhteisölle relevanttia sisältöä ja työkaluja, ja suurin osa niistä on ilmaisia.</li>
-    </ul>
+    <div class="header-divider"></div> <!-- Divider added here -->
     
-    <h2>Sisältö</h2>
-    <ul>
-        <li><a href="mie.html">Minusta.</a></li>
-        <li>Blogipostauksia ja muita julkaisuja.</li>
-        <li><a href="ohj.html">Ohjelmointikielet.</a></li>
-        <li>Ilmaisia videoita.</li>
-        <li><a href="opv.html">Apuvälineitä töihin ja opiskeluun.</a></li>
-        <li>Podcasteja</li>
-        <li>Julkaisuja.</li>
-        <li>Harjoittelumateriaaleja.</li>
-        <li>Hyödyllisiä linkkejä ja luettavaa.</li>
-        <li><a href="tietoturva.html">Tietoturva.</a></li>
-    </ul>
-    
-    <h2>Yhteystiedot</h2>
-    <p>Voit tavoittaa minut seuraavasti:</p>
-    <ul>
-        <li>Sähköposti: <a href="mailto:otto.karppinen@outlook.com">otto.karppinen@outlook.com</a></li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/ottokarppinen" target="_blank">linkedin.com/in/ottokarppinen</a></li>
-    </ul>
+    <main>
+        <div class="flex-container">
+            <div class="box home-box">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="box about-box">
+                <a href="mie.html">About Me</a>
+            </div>
+            <div class="box programming-box">
+                <a href="ohj.html">Programming Languages</a>
+            </div>
+            <div class="box tools-box">
+                <a href="opv.html">Tools for Work and Study</a>
+            </div>
+            <div class="box cybersecurity-box">
+                <a href="tietoturva.html">Cybersecurity</a>
+            </div>
+            <div class="box blog-box">
+                <a href="blog.html">Blog Posts</a>
+            </div>
+        </div>
 
-    <p>&copy; 2024 Otto Karppinen</p>
+        <h2>Welcome!</h2>
+
+        <h2>Contact Information</h2>
+        <p>You can reach me as follows:</p>
+        <p>Email: <a href="mailto:ottokarpp@gmail.com">ottokarpp@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/ottokarppinen" target="_blank">linkedin.com/in/ottokarppinen</a></p>
+        <p>GitHub: <a href="https://github.com/yourprofile" target="_blank">GitHub</a></p>
+
+        <h2>Book an Appointment</h2>
+        <a href="https://calendar.app.google/tqUq8AUP89AGPVtA9" class="button" target="_blank">Book an Appointment (30min)</a>
+        
+        <h2>Services</h2>
+        <p>I offer the following services: Web Design and Website Development.</p>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Otto Karppinen</p>
+    </footer>
 </body>
 </html>
