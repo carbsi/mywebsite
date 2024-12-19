@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Otto Karppinen - Landing Page</title>
+    <title>Ottokarpp - Landing Page</title>
     <meta name="description" content="Professional consultant Otto Karppinen's portfolio showcasing skills, projects, and various resources aimed at enhancing brand growth and opportunities.">
-    <meta name=\"keywords\" content=\"Otto Karppinen consulting, web design Finland, consulting, software development, programming languages, educational tools, cybersecurity, blog, Otto Karppinen portfolio, Accenture consultant\">
+    <meta name="keywords" content="Otto Karppinen consulting, web design Finland, consulting, software development, programming languages, educational tools, cybersecurity, blog, Otto Karppinen portfolio, Accenture consultant">
     <meta property="og:title" content="Welcome to Ottokarpp - Otto Karppinen's Portfolio">
     <meta property="og:description" content="Explore consulting services, programming resources, and more.">
     <meta property="og:url" content="https://example.com">
@@ -85,6 +85,44 @@
             margin-top: 40px;
             font-size: 0.8em;
             text-align: center; /* Center footer text */
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        .newsletter {
+            margin-top: 20px;
+        }
+
+        .newsletter input[type="email"] {
+            padding: 10px;
+            font-size: 1em;
+            width: 70%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .newsletter button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .newsletter button:hover {
+            background-color: #1d0295;
+        }
+
+        #mc_embed_signup {
+            background: #fff;
+            clear: left;
+            font: 14px Helvetica, Arial, sans-serif;
+            width: 600px;
+            margin: 0 auto;
         }
     </style>
 </head>
@@ -110,7 +148,7 @@
     <main>
         <section>
             <h2>Welcome!</h2>
-            <p>Welcome to my professional portfolio.</p>
+            <p>Welcome to my professional portfolio</p>
         </section>
         
         <section>
@@ -128,15 +166,53 @@
         </section>
 
         <section>
-            <h2>Services</h2>
+            <h2>Palvelut</h2>
             <article>
-                <p>I offer the following services: Web Design and Website Development.</p>
+                <p>Teen nopeat, viehättävät, käyttäjäystävälliset, tehokkaat ja hakukoneystävälliset verkkosivustot, jotka auttavat yritystäsi menestymään digitaalisessa maailmassa</p>
             </article>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2024 Otto Karppinen</p>
+        <div class="newsletter">
+            <div id="mc_embed_shell">
+                <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+                <div id="mc_embed_signup">
+                    <form action="https://github.us14.list-manage.com/subscribe/post?u=d9cdb9a34f320b157bf9ac7ce&amp;id=cba5ded6a8&amp;f_id=00c9bfe5f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                        <div id="mc_embed_signup_scroll">
+                            <h2>Subscribe</h2>
+                            <div class="indicates-required">
+                                <span class="asterisk">*</span> indicates required
+                            </div>
+                            <div class="mc-field-group">
+                                <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+                                <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="">
+                            </div>
+                            <div id="mce-responses" class="clear foot">
+                                <div class="response" id="mce-error-response" style="display: none;"></div>
+                                <div class="response" id="mce-success-response" style="display: none;"></div>
+                            </div>
+                            <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                                <input type="text" name="b_d9cdb9a34f320b157bf9ac7ce_cba5ded6a8" tabindex="-1" value="">
+                            </div>
+                            <div class="optionalParent">
+                                <div class="clear foot">
+                                    <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+                                    <p style="margin: 0px auto;">
+                                        <a href="http://eepurl.com/i6Akds" title="Mailchimp - email marketing made easy and fun">
+                                            <span style="display: inline-block; background-color: transparent; border-radius: 4px;">
+                                                <img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg" alt="Intuit Mailchimp" style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;">
+                                            </span>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
